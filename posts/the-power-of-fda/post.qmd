@@ -11,8 +11,12 @@ editor_options:
   chunk_output_type: console
 ---
 
-The following work was published to Quarto Pubs ([link](https://kaladin-stormblessed.quarto.pub/the-power-of-functional-data-analysis/)).
-You can also view the work below.
+The work should be visible below.
+If it isn't please clink this ([link](https://kaladin-stormblessed.quarto.pub/the-power-of-functional-data-analysis/)).
+
+# Introduction
+
+> The objectives of this article are threefold: to provide a gentle, non-technical introduction to functional data analysis, demonstrate an application using functional data analysis to make inferences about customer behavior, and showcase how such inferences can be leveraged as features in other processes, such as predictive models.
 
 ::: {=html}
 <iframe src="https://kaladin-stormblessed.quarto.pub/the-power-of-functional-data-analysis/" width="100%" height="700px"></iframe>
