@@ -1,7 +1,7 @@
 ---
 title: 'A Novel Approach to Define the Peak Hours of Consumption for Individual Customers and Groups of Customers Using Functional Data Analysis'
 date: '2022-09-01'
-categories: ['Residential']
+categories: ['Residential', 'Research']
 description: 'Research about functional data anlaysis performed at Consumers Energy'
 execute: 
   message: false
