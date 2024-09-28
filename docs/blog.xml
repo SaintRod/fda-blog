@@ -35,10 +35,13 @@
 <p>Much of my work focused on analyzing energy consumption data. During this time I learned that the deriatives of energy consumption were helpful to gain a more complete understanding of consumption patterns. The derivatives are velocity and accelartion.</p>
 <p>With functional data analysis it’s trivial to estimate the velocity and accerlation of a smooth curve fitted to the data. I thought that summarizing these derivatives into features would be helpful/ predictive.</p>
 </section>
-<section id="analysis" class="level1">
-<h1>Analysis</h1>
+<section id="analyses" class="level1">
+<h1>Analyses</h1>
 <p>The first step is to evaluate if the functional features are <em>significant</em>. I will attempt to assess this by comparing the functional features agains features from existing libraries. This is a <a href="">link</a> to the code.</p>
 <p>If the funcitonal features are found to be predictive, then a subsequent step would be to produce a package so others can test the features for themselves.</p>
+<section id="attempt-1" class="level2">
+<h2 class="anchored" data-anchor-id="attempt-1">Attempt 1</h2>
+<p>This work is ongoing.</p>
 <p><strong>Progress:</strong></p>
 <ul>
 <li>step 1: evaluation of functional features: work in progress</li>
@@ -46,6 +49,7 @@
 </ul>
 
 
+</section>
 </section>
 
  ]]></description>

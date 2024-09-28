@@ -25,7 +25,14 @@
     "href": "posts/functional-features/post.html",
     "title": "Functional Features for Time Series",
     "section": "",
-    "text": "About\nThis work is exploratory and currently unfinished. The purpose of the work is to assess if features created using functional data analysis are useful. The work was inspired by Catch22.\nAs far as I am aware, this is novel research.\nThe following is a description from the Catch22 GitHub repo:\n\nCatch22 is a collection of 22 time-series features coded in C that can be run from Python, R, Matlab, and Julia. The catch22 features are a high-performing subset of the over 7000 features in hctsa\n\n\n\nDetails\nI’ve been working and learning about functional data analysis on and off for the past three years. Over the course of this time I learned about Catch22 and other works(hctsa, theft, feast).\nMuch of my work focused on analyzing energy consumption data. During this time I learned that the deriatives of energy consumption were helpful to gain a more complete understanding of consumption patterns. The derivatives are velocity and accelartion.\nWith functional data analysis it’s trivial to estimate the velocity and accerlation of a smooth curve fitted to the data. I thought that summarizing these derivatives into features would be helpful/ predictive.\n\n\nAnalysis\nThe first step is to evaluate if the functional features are significant. I will attempt to assess this by comparing the functional features agains features from existing libraries. This is a link to the code.\nIf the funcitonal features are found to be predictive, then a subsequent step would be to produce a package so others can test the features for themselves.\nProgress:\n\nstep 1: evaluation of functional features: work in progress\nstep 2: create a package"
+    "text": "This work is exploratory and currently unfinished. The purpose of the work is to assess if features created using functional data analysis are useful. The work was inspired by Catch22.\nAs far as I am aware, this is novel research.\nThe following is a description from the Catch22 GitHub repo:\n\nCatch22 is a collection of 22 time-series features coded in C that can be run from Python, R, Matlab, and Julia. The catch22 features are a high-performing subset of the over 7000 features in hctsa"
+  },
+  {
+    "objectID": "posts/functional-features/post.html#attempt-1",
+    "href": "posts/functional-features/post.html#attempt-1",
+    "title": "Functional Features for Time Series",
+    "section": "Attempt 1",
+    "text": "Attempt 1\nThis work is ongoing.\nProgress:\n\nstep 1: evaluation of functional features: work in progress\nstep 2: create a package"
   },
   {
     "objectID": "posts/ce-estimated-consumption/post.html",
