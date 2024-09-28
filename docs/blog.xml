@@ -34,6 +34,48 @@
   <pubDate>Sun, 23 Apr 2023 05:00:00 GMT</pubDate>
 </item>
 <item>
+  <title>Functional Features for Time Series</title>
+  <dc:creator>Santiago Rodriguez</dc:creator>
+  <link>https://saintrod.github.io/fda-blog/posts/functional-features/post.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="about" class="level1">
+<h1>About</h1>
+<p>This work is exploratory and currently unfinished. The purpose of the work is to assess if features created using functional data analysis are useful. The work was inspired by <a href="https://github.com/hendersontrent/catch22">Catch22</a>.</p>
+<p>As far as I am aware, this is novel research.</p>
+<p>The following is a description from the Catch22 GitHub repo:</p>
+<blockquote class="blockquote">
+<p>Catch22 is a collection of 22 time-series features coded in C that can be run from Python, R, Matlab, and Julia. The catch22 features are a high-performing subset of the over 7000 features in hctsa</p>
+</blockquote>
+</section>
+<section id="details" class="level1">
+<h1>Details</h1>
+<p>I’ve been working and learning about functional data analysis on and off for the past three years. Over the course of this time I learned about Catch22 and other works(<a href="https://github.com/benfulcher/hctsa">hctsa</a>, <a href="https://github.com/hendersontrent/theft">theft</a>, <a href="https://cran.r-project.org/web/packages/feasts/index.html">feast</a>).</p>
+<p>Much of my work focused on analyzing energy consumption data. During this time I learned that the deriatives of energy consumption were helpful to gain a more complete understanding of consumption patterns. The derivatives are velocity and accelartion.</p>
+<p>With functional data analysis it’s trivial to estimate the velocity and accerlation of a smooth curve fitted to the data. I thought that summarizing these derivatives into features would be helpful/ predictive.</p>
+</section>
+<section id="analysis" class="level1">
+<h1>Analysis</h1>
+<p>The first step is to evaluate if the functional features are <em>significant</em>. I will attempt to assess this by comparing the functional features agains features from existing libraries. This is a <a href="">link</a> to the code.</p>
+<p>If the funcitonal features are found to be predictive, then a subsequent step would be to produce a package so others can test the features for themselves.</p>
+<p><strong>Progress:</strong></p>
+<ul>
+<li>step 1: evaluation of functional features: work in progress</li>
+<li>step 2: create a package</li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <category>Research</category>
+  <guid>https://saintrod.github.io/fda-blog/posts/functional-features/post.html</guid>
+  <pubDate>Thu, 01 Sep 2022 05:00:00 GMT</pubDate>
+</item>
+<item>
   <title>A Novel Approach to Define the Peak Hours of Consumption for Individual Customers and Groups of Customers Using Functional Data Analysis</title>
   <dc:creator>Santiago Rodriguez</dc:creator>
   <link>https://saintrod.github.io/fda-blog/posts/peak-hours/post.html</link>
@@ -52,6 +94,7 @@
 
  ]]></description>
   <category>Residential</category>
+  <category>Research</category>
   <guid>https://saintrod.github.io/fda-blog/posts/peak-hours/post.html</guid>
   <pubDate>Thu, 01 Sep 2022 05:00:00 GMT</pubDate>
 </item>

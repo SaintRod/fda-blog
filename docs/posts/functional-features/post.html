@@ -8,9 +8,9 @@
 
 <meta name="author" content="Santiago Rodriguez">
 <meta name="dcterms.date" content="2022-09-01">
-<meta name="description" content="Research about functional data anlaysis performed at Consumers Energy">
+<meta name="description" content="Similar to Catch22 but uses functional data analysis to create features">
 
-<title>A Novel Approach to Define the Peak Hours of Consumption for Individual Customers and Groups of Customers Using Functional Data Analysis – FDA Blog</title>
+<title>Functional Features for Time Series – FDA Blog</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -116,24 +116,31 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#about" id="toc-about" class="nav-link active" data-scroll-target="#about">About</a></li>
+  <li><a href="#details" id="toc-details" class="nav-link" data-scroll-target="#details">Details</a></li>
+  <li><a href="#analysis" id="toc-analysis" class="nav-link" data-scroll-target="#analysis">Analysis</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">A Novel Approach to Define the Peak Hours of Consumption for Individual Customers and Groups of Customers Using Functional Data Analysis</h1>
+<h1 class="title">Functional Features for Time Series</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">Residential</div>
     <div class="quarto-category">Research</div>
   </div>
   </div>
 
 <div>
   <div class="description">
-    Research about functional data anlaysis performed at Consumers Energy
+    Similar to Catch22 but uses functional data analysis to create features
   </div>
 </div>
 
@@ -162,13 +169,33 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>The following work was published to R Pubs (<a href="https://rpubs.com/kaladin_stormblessed/onpeak_fda">link</a>). You can also view the work below.</p>
-<div class="{=html}">
-<iframe src="https://rpubs.com/kaladin_stormblessed/onpeak_fda" width="100%" height="700px">
-</iframe>
-</div>
+<section id="about" class="level1">
+<h1>About</h1>
+<p>This work is exploratory and currently unfinished. The purpose of the work is to assess if features created using functional data analysis are useful. The work was inspired by <a href="https://github.com/hendersontrent/catch22">Catch22</a>.</p>
+<p>As far as I am aware, this is novel research.</p>
+<p>The following is a description from the Catch22 GitHub repo:</p>
+<blockquote class="blockquote">
+<p>Catch22 is a collection of 22 time-series features coded in C that can be run from Python, R, Matlab, and Julia. The catch22 features are a high-performing subset of the over 7000 features in hctsa</p>
+</blockquote>
+</section>
+<section id="details" class="level1">
+<h1>Details</h1>
+<p>I’ve been working and learning about functional data analysis on and off for the past three years. Over the course of this time I learned about Catch22 and other works(<a href="https://github.com/benfulcher/hctsa">hctsa</a>, <a href="https://github.com/hendersontrent/theft">theft</a>, <a href="https://cran.r-project.org/web/packages/feasts/index.html">feast</a>).</p>
+<p>Much of my work focused on analyzing energy consumption data. During this time I learned that the deriatives of energy consumption were helpful to gain a more complete understanding of consumption patterns. The derivatives are velocity and accelartion.</p>
+<p>With functional data analysis it’s trivial to estimate the velocity and accerlation of a smooth curve fitted to the data. I thought that summarizing these derivatives into features would be helpful/ predictive.</p>
+</section>
+<section id="analysis" class="level1">
+<h1>Analysis</h1>
+<p>The first step is to evaluate if the functional features are <em>significant</em>. I will attempt to assess this by comparing the functional features agains features from existing libraries. This is a <a href="">link</a> to the code.</p>
+<p>If the funcitonal features are found to be predictive, then a subsequent step would be to produce a package so others can test the features for themselves.</p>
+<p><strong>Progress:</strong></p>
+<ul>
+<li>step 1: evaluation of functional features: work in progress</li>
+<li>step 2: create a package</li>
+</ul>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
