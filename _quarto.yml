@@ -1,0 +1,23 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: FDA Blog
+  #site-url: 
+  description: "A Collection of Works About Functional Data Analysis (FDA)"
+  navbar:
+    right:
+      - text: Blog
+        href: blog.qmd
+      - icon: github
+        href: https://github.com/SaintRod/
+      - icon: gitlab
+        href: https://gitlab.com/hail_hydra
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+
+
+

@@ -1,0 +1,23 @@
+---
+title: "A Blog About Functional Data Analysis"
+image: profile.png
+about:
+  template: broadside
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/santiagorodriguez91/
+    - icon: github
+      text: Github
+      href: https://github.com/SaintRod/
+    - icon: gitlab
+      text: GitLab
+      href: https://gitlab.com/hail_hydra
+
+---
+
+Howdy.
+
+My name is Santiago Rodriguez and I am a statistican, statistical programmer, machine learning practioner, and a life-long learner.
+
+The purpose of this blog is to house under one roof articles and exploratory works I've authored about functional data analysis that are currently scattered across the internet.

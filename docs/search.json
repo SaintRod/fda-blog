@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "A Blog About Functional Data Analysis",
+    "section": "",
+    "text": "The Power of Functional Data Analysis\n\n\n\n\n\n\nResidential\n\n\n\nAn exploration of functional data analysis using my household energy consumption\n\n\n\n\n\nApr 23, 2023\n\n\nSantiago Rodriguez\n\n\n\n\n\n\n\n\n\n\n\n\nA Novel Approach to Define the Peak Hours of Consumption for Individual Customers and Groups of Customers Using Functional Data Analysis\n\n\n\n\n\n\nResidential\n\n\n\nResearch about functional data anlaysis performed at Consumers Energy\n\n\n\n\n\nSep 1, 2022\n\n\nSantiago Rodriguez\n\n\n\n\n\n\n\n\n\n\n\n\nEstimated Consumption via Functional Data Analysis\n\n\n\n\n\n\nCommercial\n\n\n\nResearch about functional data anlaysis performed at Consumers Energy\n\n\n\n\n\nNov 1, 2021\n\n\nSantiago Rodriguez\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/peak-hours/post.html",
+    "href": "posts/peak-hours/post.html",
+    "title": "A Novel Approach to Define the Peak Hours of Consumption for Individual Customers and Groups of Customers Using Functional Data Analysis",
+    "section": "",
+    "text": "The following work was published to R Pubs (link). You can also view the work below."
+  },
+  {
+    "objectID": "posts/the-power-of-fda/post.html",
+    "href": "posts/the-power-of-fda/post.html",
+    "title": "The Power of Functional Data Analysis",
+    "section": "",
+    "text": "The following work was published to Quarto Pubs (link). You can also view the work below."
+  },
+  {
+    "objectID": "posts/ce-estimated-consumption/post.html",
+    "href": "posts/ce-estimated-consumption/post.html",
+    "title": "Estimated Consumption via Functional Data Analysis",
+    "section": "",
+    "text": "The following work was published to R Pubs (link). You can also view the work below."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "A Blog About Functional Data Analysis",
+    "section": "",
+    "text": "Howdy.\nMy name is Santiago Rodriguez and I am a statistican, statistical programmer, machine learning practioner, and a life-long learner.\nThe purpose of this blog is to house under one roof articles and exploratory works I’ve authored about functional data analysis that are currently scattered across the internet."
+  }
+]

@@ -1,0 +1,19 @@
+---
+title: 'Estimated Consumption via Functional Data Analysis'
+date: '2021-11-01'
+categories: ['Commercial']
+description: 'Research about functional data anlaysis performed at Consumers Energy'
+execute: 
+  message: false
+  warning: false
+editor_options: 
+  chunk_output_type: console
+---
+
+
+The following work was published to R Pubs ([link](https://rpubs.com/kaladin_stormblessed/CMS_FDA)).
+You can also view the work below.
+
+::: {=html}
+<iframe src="https://rpubs.com/kaladin_stormblessed/CMS_FDA" width="100%" height="700px"></iframe>
+:::
