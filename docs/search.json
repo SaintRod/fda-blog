@@ -11,7 +11,7 @@
     "href": "posts/peak-hours/post.html",
     "title": "A Novel Approach to Define the Peak Hours of Consumption for Individual Customers and Groups of Customers Using Functional Data Analysis",
     "section": "",
-    "text": "The following work was published to R Pubs (link). You can also view the work below."
+    "text": "The work should be visible below. If it isn’t please clink this (link).\n\nAbstract\nThe following text was obtained from the publication.\n\nA common analysis in utilities is the use of meter read data to define peak hours of consumption. This paper proposes a novel approach using functional data analysis (FDA) to define the peak hours of consumption for individual customers and groups of customers. Through functional data analysis, smooth, differentiable curves are fitted to an individual customer’s meter read data. Then, the individual on-peak times are aggregated to define on-peak hours for a group of customers, such as for all residential customers.\n\n\nThe individual customer on-peak hours are proposed as the times of day where the velocity or the rate of change is greatest or least, respectively. The group on-peak hours are determined by two different methods; the first by assessing the distributions of the start and end aggregated individual on-peak windows and the second via an unsupervised statistical learning procedure."
   },
   {
     "objectID": "posts/the-power-of-fda/post.html",
