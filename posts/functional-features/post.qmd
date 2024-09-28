@@ -1,0 +1,49 @@
+---
+title: 'Functional Features for Time Series'
+date: '2022-09-01'
+date-modified: ''
+categories: ['Research']
+description: 'Similar to Catch22 but uses functional data analysis to create features'
+execute: 
+  message: false
+  warning: false
+editor_options: 
+  chunk_output_type: console
+---
+
+# About
+
+This work is exploratory and currently unfinished.
+The purpose of the work is to assess if features created using functional data analysis are useful.
+The work was inspired by [Catch22](https://github.com/hendersontrent/catch22).
+
+As far as I am aware, this is novel research.
+
+The following is a description from the Catch22 GitHub repo:
+
+> Catch22 is a collection of 22 time-series features coded in C that can be run from Python, R, Matlab, and Julia. The catch22 features are a high-performing subset of the over 7000 features in hctsa
+
+# Details
+
+I've been working and learning about functional data analysis on and off for the past three years.
+Over the course of this time I learned about Catch22 and other works([hctsa](https://github.com/benfulcher/hctsa), [theft](https://github.com/hendersontrent/theft), [feast](https://cran.r-project.org/web/packages/feasts/index.html)).
+
+Much of my work focused on analyzing energy consumption data.
+During this time I learned that the deriatives of energy consumption were helpful to gain a more complete understanding of consumption patterns.
+The derivatives are velocity and accelartion.
+
+With functional data analysis it's trivial to estimate the velocity and accerlation of a smooth curve fitted to the data.
+I thought that summarizing these derivatives into features would be helpful/ predictive.
+
+# Analysis
+
+The first step is to evaluate if the functional features are *significant*.
+I will attempt to assess this by comparing the functional features agains features from existing libraries.
+This is a [link]() to the code.
+
+If the funcitonal features are found to be predictive, then a subsequent step would be to produce a package so others can test the features for themselves.
+
+**Progress:**
+
+- step 1: evaluation of functional features: work in progress
+- step 2: create a package
