@@ -10,9 +10,12 @@ editor_options:
   chunk_output_type: console
 ---
 
+The work should be visible below.
+If it isn't please clink this ([link](https://rpubs.com/kaladin_stormblessed/CMS_FDA)).
 
-The following work was published to R Pubs ([link](https://rpubs.com/kaladin_stormblessed/CMS_FDA)).
-You can also view the work below.
+**Summary provided by an *AI***
+
+> The publication presents a method for estimating electricity consumption using Functional Data Analysis (FDA). The author applies FDA techniques to model patterns over time, leveraging the flexibility of R's `fda` packages.
 
 ::: {=html}
 <iframe src="https://rpubs.com/kaladin_stormblessed/CMS_FDA" width="100%" height="700px"></iframe>
