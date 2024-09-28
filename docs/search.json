@@ -18,7 +18,7 @@
     "href": "posts/the-power-of-fda/post.html",
     "title": "The Power of Functional Data Analysis",
     "section": "",
-    "text": "The following work was published to Quarto Pubs (link). You can also view the work below."
+    "text": "The work should be visible below. If it isn’t please clink this (link).\n\nIntroduction\n\nThe objectives of this article are threefold: to provide a gentle, non-technical introduction to functional data analysis, demonstrate an application using functional data analysis to make inferences about customer behavior, and showcase how such inferences can be leveraged as features in other processes, such as predictive models."
   },
   {
     "objectID": "posts/functional-features/post.html",
