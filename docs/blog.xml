@@ -10,29 +10,7 @@
 <atom:link href="https://saintrod.github.io/fda-blog/blog.xml" rel="self" type="application/rss+xml"/>
 <description>A Collection of Works About Functional Data Analysis (FDA)</description>
 <generator>quarto-1.5.54</generator>
-<lastBuildDate>Sun, 23 Apr 2023 05:00:00 GMT</lastBuildDate>
-<item>
-  <title>The Power of Functional Data Analysis</title>
-  <dc:creator>Santiago Rodriguez</dc:creator>
-  <link>https://saintrod.github.io/fda-blog/posts/the-power-of-fda/post.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>The following work was published to Quarto Pubs (<a href="https://kaladin-stormblessed.quarto.pub/the-power-of-functional-data-analysis/">link</a>). You can also view the work below.</p>
-<div class="{=html}">
-<iframe src="https://kaladin-stormblessed.quarto.pub/the-power-of-functional-data-analysis/" width="100%" height="700px">
-</iframe>
-</div>
-
-
-
- ]]></description>
-  <category>Residential</category>
-  <guid>https://saintrod.github.io/fda-blog/posts/the-power-of-fda/post.html</guid>
-  <pubDate>Sun, 23 Apr 2023 05:00:00 GMT</pubDate>
-</item>
+<lastBuildDate>Fri, 03 Nov 2023 05:00:00 GMT</lastBuildDate>
 <item>
   <title>Functional Features for Time Series</title>
   <dc:creator>Santiago Rodriguez</dc:creator>
@@ -73,7 +51,29 @@
  ]]></description>
   <category>Research</category>
   <guid>https://saintrod.github.io/fda-blog/posts/functional-features/post.html</guid>
-  <pubDate>Thu, 01 Sep 2022 05:00:00 GMT</pubDate>
+  <pubDate>Fri, 03 Nov 2023 05:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>The Power of Functional Data Analysis</title>
+  <dc:creator>Santiago Rodriguez</dc:creator>
+  <link>https://saintrod.github.io/fda-blog/posts/the-power-of-fda/post.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>The following work was published to Quarto Pubs (<a href="https://kaladin-stormblessed.quarto.pub/the-power-of-functional-data-analysis/">link</a>). You can also view the work below.</p>
+<div class="{=html}">
+<iframe src="https://kaladin-stormblessed.quarto.pub/the-power-of-functional-data-analysis/" width="100%" height="700px">
+</iframe>
+</div>
+
+
+
+ ]]></description>
+  <category>Residential</category>
+  <guid>https://saintrod.github.io/fda-blog/posts/the-power-of-fda/post.html</guid>
+  <pubDate>Sun, 23 Apr 2023 05:00:00 GMT</pubDate>
 </item>
 <item>
   <title>A Novel Approach to Define the Peak Hours of Consumption for Individual Customers and Groups of Customers Using Functional Data Analysis</title>

@@ -2,8 +2,8 @@
   {
     "listing": "/blog.html",
     "items": [
-      "/posts/the-power-of-fda/post.html",
       "/posts/functional-features/post.html",
+      "/posts/the-power-of-fda/post.html",
       "/posts/peak-hours/post.html",
       "/posts/ce-estimated-consumption/post.html"
     ]
