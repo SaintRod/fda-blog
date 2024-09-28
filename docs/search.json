@@ -32,7 +32,7 @@
     "href": "posts/ce-estimated-consumption/post.html",
     "title": "Estimated Consumption via Functional Data Analysis",
     "section": "",
-    "text": "The following work was published to R Pubs (link). You can also view the work below."
+    "text": "The work should be visible below. If it isn’t please clink this (link).\nSummary provided by an AI\n\nThe publication presents a method for estimating electricity consumption using Functional Data Analysis (FDA). The author applies FDA techniques to model patterns over time, leveraging the flexibility of R’s fda packages."
   },
   {
     "objectID": "index.html",
