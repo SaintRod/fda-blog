@@ -4,7 +4,7 @@ project:
 
 website:
   title: FDA Blog
-  #site-url: 
+  site-url: https://saintrod.github.io/fda-blog/
   description: "A Collection of Works About Functional Data Analysis (FDA)"
   navbar:
     right:
