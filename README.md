@@ -1,2 +1,8 @@
-# fda-blog
-A collection of work about functional data analysis
+# Quarto
+
+- preview: `quarto preview`
+- render: `quarto render`
+
+# GitHub Pages
+
+Requires output be rendered to a ./docs dir.
