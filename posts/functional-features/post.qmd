@@ -35,13 +35,17 @@ The derivatives are velocity and accelartion.
 With functional data analysis it's trivial to estimate the velocity and accerlation of a smooth curve fitted to the data.
 I thought that summarizing these derivatives into features would be helpful/ predictive.
 
-# Analysis
+# Analyses
 
 The first step is to evaluate if the functional features are *significant*.
 I will attempt to assess this by comparing the functional features agains features from existing libraries.
 This is a [link]() to the code.
 
 If the funcitonal features are found to be predictive, then a subsequent step would be to produce a package so others can test the features for themselves.
+
+## Attempt 1
+
+This work is ongoing.
 
 **Progress:**
 
