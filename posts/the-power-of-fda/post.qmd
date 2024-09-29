@@ -13,6 +13,7 @@ editor_options:
 
 The work should be visible below.
 If it isn't please clink this ([link](https://kaladin-stormblessed.quarto.pub/the-power-of-functional-data-analysis/)).
+The code for this project can be found [here](https://gitlab.com/energy_consumption/descriptive/fda_overview).
 
 # Introduction
 
