@@ -1,5 +1,5 @@
 ---
-title: 'Functional Features for Time Series'
+title: 'Functional Features for Time Series - Part 1'
 date: '2023-11-03'
 date-modified: '2024-09-28'
 categories: ['Research']
@@ -13,13 +13,13 @@ editor_options:
 
 # About
 
-This work is exploratory and currently unfinished.
+This work is exploratory.
 The purpose of the work is to assess if features created using functional data analysis are useful.
 The work was inspired by [Catch22](https://github.com/hendersontrent/catch22).
 
 As far as I am aware, this is novel research.
 
-The following is a description from the Catch22 GitHub repo:
+The following is a description of Catch22:
 
 > Catch22 is a collection of 22 time-series features coded in C that can be run from Python, R, Matlab, and Julia. The catch22 features are a high-performing subset of the over 7000 features in hctsa
 
@@ -35,28 +35,14 @@ The derivatives are velocity and accelartion.
 With functional data analysis it's trivial to estimate the velocity and accerlation of a smooth curve fitted to the data.
 I thought that summarizing these derivatives into features would be helpful/ predictive.
 
-# Analyses
+# Analysis
 
 The first step is to evaluate if the functional features are *significant*.
 I will attempt to assess this by comparing the functional features agains features from existing libraries.
-This is a [link]() to the code.
+The code for this project can be found [here]().
 
 If the funcitonal features are found to be predictive, then a subsequent step would be to produce a package so others can test the features for themselves.
-
-## Attempt 1
 
 ::: {=html}
 <iframe src="https://kaladin-stormblessed.quarto.pub/functional-features-part1/" width="100%" height="700px"></iframe>
 :::
-
-
-## Attempt 2
-
-This work hasn't been initiated yet.
-My idea is to replicate a Catch22 analysis.
-The devs/ researchers behind Catch22 tested their 22 features using a series of data sets.
-I will find one of these data sets, I believe they're avaiable, and attempt to replciate their results.
-Then, I will calculate my functional features.
-Finally, I'll evaluate results.
-My hope is that the functional features are at least as good as the Catch22 features.
-It's also possible that the functional features are more pertinent to some domains than others.
