@@ -1,0 +1,30 @@
+---
+title: 'Functional Features for Time Series - Part 2'
+date: ''
+date-modified: ''
+categories: ['Research']
+description: 'A continued exploration of functional features'
+execute: 
+  message: false
+  warning: false
+editor_options: 
+  chunk_output_type: console
+draft: true
+---
+
+# Part 1
+
+This is a continuation of ongoing research.
+Read [part 1]() for more details on the nature of the research.
+
+# About
+
+This work hasn't been initiated yet.
+My idea is to replicate a Catch22 analysis.
+The devs/ researchers behind Catch22 tested their 22 features using a series of data sets.
+I will find one of these data sets, I believe they're avaiable, and attempt to replciate their results.
+Then, I will calculate my functional features.
+Finally, I'll evaluate results.
+
+My hope is that the functional features are at least as good as the Catch22 features.
+It's also possible that the functional features are more pertinent to some domains than others.
