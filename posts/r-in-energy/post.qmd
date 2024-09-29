@@ -1,0 +1,36 @@
+---
+title: 'R in Energy'
+description: 'Applications of Functional Data Analysis'
+date: '2023-03-01'
+date-modified: '2024-09-29'
+categories: ['Research']
+execute: 
+  message: false
+  warning: false
+editor_options: 
+  chunk_output_type: console
+---
+
+# About
+
+Some time ago I had the great pleasure to share some of my work on functional data analysis.
+
+The R in Energy meetup is a industry-focused data meetup for professionals working with R in the energy sector/ utilities industry.
+The meetups are hosted by [Posit](https://posit.co/).
+
+# Links
+
+- [YouTube](https://www.youtube.com/watch?v=nA9fVOCD8yM)
+- [Presentation](https://docs.google.com/presentation/d/1ONqS4cMa_3MhxtTZ_lVUjgfUUUGNcDwq5aV92ThVItU/edit#slide=id.g11db7e0da8f_0_0)
+
+# Embedded
+
+<br>
+
+[![R in Energy](https://img.youtube.com/vi/nA9fVOCD8yM/0.jpg)](https://www.youtube.com/watch?v=nA9fVOCD8yM)
+
+<br>
+
+::: {=html}
+<iframe src="https://docs.google.com/presentation/d/1ONqS4cMa_3MhxtTZ_lVUjgfUUUGNcDwq5aV92ThVItU/edit#slide=id.g11db7e0da8f_0_0" width="100%" height="700px"></iframe>
+:::
