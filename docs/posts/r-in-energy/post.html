@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Santiago Rodriguez">
+<meta name="dcterms.date" content="2023-03-01">
+<meta name="description" content="Applications of Functional Data Analysis">
 
-<title>A Blog About Functional Data Analysis – FDA Blog</title>
+<title>R in Energy – FDA Blog</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +26,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,77 +69,19 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
-<link rel="alternate" type="application/rss+xml" title="FDA Blog" href="blog.xml" data-external="1"></head>
+<link rel="stylesheet" href="../../styles.css">
+</head>
 
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">FDA Blog</span>
     </a>
   </div>
@@ -149,7 +92,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./blog.html" aria-current="page"> 
+    <a class="nav-link" href="../../blog.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item compact">
@@ -170,214 +113,99 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">A Blog About Functional Data Analysis</h1>
-                      </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta column-page-left">
-
-      
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(5)</span></div><div class="category" data-category="Commercial">Commercial <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Research">Research <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Residential">Residential <span class="quarto-category-count">(2)</span></div></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#about" id="toc-about" class="nav-link active" data-scroll-target="#about">About</a></li>
+  <li><a href="#links" id="toc-links" class="nav-link" data-scroll-target="#links">Links</a></li>
+  <li><a href="#embedded" id="toc-embedded" class="nav-link" data-scroll-target="#embedded">Embedded</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">R in Energy</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Research</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    Applications of Functional Data Analysis
+  </div>
+</div>
 
 
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Santiago Rodriguez </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">March 1, 2023</p>
+    </div>
+  </div>
+  
+    <div>
+    <div class="quarto-title-meta-heading">Modified</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date-modified">September 29, 2024</p>
+    </div>
+  </div>
+    
+  </div>
+  
 
 
+</header>
 
 
+<section id="about" class="level1">
+<h1>About</h1>
+<p>Some time ago I had the great pleasure to share some of my work on functional data analysis.</p>
+<p>The R in Energy meetup is a industry-focused data meetup for professionals working with R in the energy sector/ utilities industry. The meetups are hosted by <a href="https://posit.co/">Posit</a>.</p>
+</section>
+<section id="links" class="level1">
+<h1>Links</h1>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=nA9fVOCD8yM">YouTube</a></li>
+<li><a href="https://docs.google.com/presentation/d/1ONqS4cMa_3MhxtTZ_lVUjgfUUUGNcDwq5aV92ThVItU/edit#slide=id.g11db7e0da8f_0_0">Presentation</a></li>
+</ul>
+</section>
+<section id="embedded" class="level1">
+<h1>Embedded</h1>
+<p><br></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://www.youtube.com/watch?v=nA9fVOCD8yM"><img src="https://img.youtube.com/vi/nA9fVOCD8yM/0.jpg" class="img-fluid figure-img" alt="R in Energy"></a></p>
+<figcaption>R in Energy</figcaption>
+</figure>
+</div>
+<p><br></p>
+<div class="{=html}">
+<iframe src="https://docs.google.com/presentation/d/1ONqS4cMa_3MhxtTZ_lVUjgfUUUGNcDwq5aV92ThVItU/edit#slide=id.g11db7e0da8f_0_0" width="100%" height="700px">
+</iframe>
+</div>
 
 
+</section>
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="Research" data-listing-date-sort="1698987600000" data-listing-file-modified-sort="1727601726816" data-listing-date-modified-sort="1727499600000" data-listing-reading-time-sort="2" data-listing-word-count-sort="236">
-<div class="thumbnail">
-<p><a href="./posts/functional-features-part1/post.html" class="no-external"></a></p><a href="./posts/functional-features-part1/post.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./posts/functional-features-part1/post.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/functional-features-part1/post.html" class="no-external">Functional Features for Time Series - Part 1</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/functional-features-part1/post.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Research'); return false;">
-Research
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/functional-features-part1/post.html" class="no-external">Similar to Catch22 but uses functional data analysis to create features</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/functional-features-part1/post.html" class="no-external">
-<div class="listing-date">
-Nov 3, 2023
-</div>
-<div class="listing-author">
-Santiago Rodriguez
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="Residential" data-listing-date-sort="1682226000000" data-listing-file-modified-sort="1727599684736" data-listing-date-modified-sort="1727413200000" data-listing-reading-time-sort="1" data-listing-word-count-sort="71">
-<div class="thumbnail">
-<p><a href="./posts/the-power-of-fda/post.html" class="no-external"></a></p><a href="./posts/the-power-of-fda/post.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./posts/the-power-of-fda/post.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/the-power-of-fda/post.html" class="no-external">The Power of Functional Data Analysis</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/the-power-of-fda/post.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Residential'); return false;">
-Residential
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/the-power-of-fda/post.html" class="no-external">An exploration of functional data analysis using my household energy consumption</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/the-power-of-fda/post.html" class="no-external">
-<div class="listing-date">
-Apr 23, 2023
-</div>
-<div class="listing-author">
-Santiago Rodriguez
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="Research" data-listing-date-sort="1677650400000" data-listing-file-modified-sort="1727603387202" data-listing-date-modified-sort="1727586000000" data-listing-reading-time-sort="1" data-listing-word-count-sort="53">
-<div class="thumbnail">
-<p><a href="./posts/r-in-energy/post.html" class="no-external"></a></p><a href="./posts/r-in-energy/post.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./posts/r-in-energy/post.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/r-in-energy/post.html" class="no-external">R in Energy</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/r-in-energy/post.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Research'); return false;">
-Research
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/r-in-energy/post.html" class="no-external">Applications of Functional Data Analysis</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/r-in-energy/post.html" class="no-external">
-<div class="listing-date">
-Mar 1, 2023
-</div>
-<div class="listing-author">
-Santiago Rodriguez
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="Residential,Research" data-listing-date-sort="1662008400000" data-listing-file-modified-sort="1727550987427" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="163">
-<div class="thumbnail">
-<p><a href="./posts/peak-hours/post.html" class="no-external"></a></p><a href="./posts/peak-hours/post.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./posts/peak-hours/post.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/peak-hours/post.html" class="no-external">A Novel Approach to Define the Peak Hours of Consumption for Individual Customers and Groups of Customers Using Functional Data Analysis</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/peak-hours/post.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Residential'); return false;">
-Residential
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Research'); return false;">
-Research
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/peak-hours/post.html" class="no-external">Research about functional data anlaysis performed at Consumers Energy</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/peak-hours/post.html" class="no-external">
-<div class="listing-date">
-Sep 1, 2022
-</div>
-<div class="listing-author">
-Santiago Rodriguez
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-categories="Commercial" data-listing-date-sort="1635742800000" data-listing-file-modified-sort="1727550428589" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="51">
-<div class="thumbnail">
-<p><a href="./posts/ce-estimated-consumption/post.html" class="no-external"></a></p><a href="./posts/ce-estimated-consumption/post.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./posts/ce-estimated-consumption/post.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/ce-estimated-consumption/post.html" class="no-external">Estimated Consumption via Functional Data Analysis</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/ce-estimated-consumption/post.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Commercial'); return false;">
-Commercial
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/ce-estimated-consumption/post.html" class="no-external">Research about functional data anlaysis performed at Consumers Energy</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/ce-estimated-consumption/post.html" class="no-external">
-<div class="listing-date">
-Nov 1, 2021
-</div>
-<div class="listing-author">
-Santiago Rodriguez
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
