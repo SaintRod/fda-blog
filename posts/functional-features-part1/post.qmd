@@ -39,7 +39,7 @@ I thought that summarizing these derivatives into features would be helpful/ pre
 
 The first step is to evaluate if the functional features are *significant*.
 I will attempt to assess this by comparing the functional features agains features from existing libraries.
-The code for this project can be found [here]().
+The code for this project can be found [here](https://gitlab.com/energy_consumption/predictive_analytics/functional_features).
 
 If the funcitonal features are found to be predictive, then a subsequent step would be to produce a package so others can test the features for themselves.
 
