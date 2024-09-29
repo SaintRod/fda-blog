@@ -2,7 +2,6 @@
 title: 'Functional Features for Time Series'
 date: '2023-11-03'
 date-modified: '2024-09-28'
-date-modified: ''
 categories: ['Research']
 description: 'Similar to Catch22 but uses functional data analysis to create features'
 execute: 
