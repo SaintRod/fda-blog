@@ -37,7 +37,7 @@
 </section>
 <section id="analysis" class="level1">
 <h1>Analysis</h1>
-<p>The first step is to evaluate if the functional features are <em>significant</em>. I will attempt to assess this by comparing the functional features agains features from existing libraries. The code for this project can be found <a href="">here</a>.</p>
+<p>The first step is to evaluate if the functional features are <em>significant</em>. I will attempt to assess this by comparing the functional features agains features from existing libraries. The code for this project can be found <a href="https://gitlab.com/energy_consumption/predictive_analytics/functional_features">here</a>.</p>
 <p>If the funcitonal features are found to be predictive, then a subsequent step would be to produce a package so others can test the features for themselves.</p>
 <div class="{=html}">
 <iframe src="https://kaladin-stormblessed.quarto.pub/functional-features-part1/" width="100%" height="700px">
