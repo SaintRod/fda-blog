@@ -50,7 +50,13 @@ If the funcitonal features are found to be predictive, then a subsequent step wo
 :::
 
 
-**Progress:**
+## Attempt 2
 
-- step 1: evaluation of functional features: work in progress
-- step 2: create a package
+This work hasn't been initiated yet.
+My idea is to replicate a Catch22 analysis.
+The devs/ researchers behind Catch22 tested their 22 features using a series of data sets.
+I will find one of these data sets, I believe they're avaiable, and attempt to replciate their results.
+Then, I will calculate my functional features.
+Finally, I'll evaluate results.
+My hope is that the functional features are at least as good as the Catch22 features.
+It's also possible that the functional features are more pertinent to some domains than others.
