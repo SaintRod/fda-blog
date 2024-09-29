@@ -3,7 +3,7 @@ title: 'R in Energy'
 description: 'Applications of Functional Data Analysis'
 date: '2023-03-01'
 date-modified: '2024-09-29'
-categories: ['Research']
+categories: ['Presentation']
 execute: 
   message: false
   warning: false
