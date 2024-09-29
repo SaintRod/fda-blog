@@ -12,9 +12,9 @@
 <generator>quarto-1.5.54</generator>
 <lastBuildDate>Fri, 03 Nov 2023 05:00:00 GMT</lastBuildDate>
 <item>
-  <title>Functional Features for Time Series</title>
+  <title>Functional Features for Time Series - Part 1</title>
   <dc:creator>Santiago Rodriguez</dc:creator>
-  <link>https://saintrod.github.io/fda-blog/posts/functional-features/post.html</link>
+  <link>https://saintrod.github.io/fda-blog/posts/functional-features-part1/post.html</link>
   <description><![CDATA[ 
 
 
@@ -22,9 +22,9 @@
 
 <section id="about" class="level1">
 <h1>About</h1>
-<p>This work is exploratory and currently unfinished. The purpose of the work is to assess if features created using functional data analysis are useful. The work was inspired by <a href="https://github.com/hendersontrent/catch22">Catch22</a>.</p>
+<p>This work is exploratory. The purpose of the work is to assess if features created using functional data analysis are useful. The work was inspired by <a href="https://github.com/hendersontrent/catch22">Catch22</a>.</p>
 <p>As far as I am aware, this is novel research.</p>
-<p>The following is a description from the Catch22 GitHub repo:</p>
+<p>The following is a description of Catch22:</p>
 <blockquote class="blockquote">
 <p>Catch22 is a collection of 22 time-series features coded in C that can be run from Python, R, Matlab, and Julia. The catch22 features are a high-performing subset of the over 7000 features in hctsa</p>
 </blockquote>
@@ -35,28 +35,21 @@
 <p>Much of my work focused on analyzing energy consumption data. During this time I learned that the deriatives of energy consumption were helpful to gain a more complete understanding of consumption patterns. The derivatives are velocity and accelartion.</p>
 <p>With functional data analysis it’s trivial to estimate the velocity and accerlation of a smooth curve fitted to the data. I thought that summarizing these derivatives into features would be helpful/ predictive.</p>
 </section>
-<section id="analyses" class="level1">
-<h1>Analyses</h1>
-<p>The first step is to evaluate if the functional features are <em>significant</em>. I will attempt to assess this by comparing the functional features agains features from existing libraries. This is a <a href="">link</a> to the code.</p>
+<section id="analysis" class="level1">
+<h1>Analysis</h1>
+<p>The first step is to evaluate if the functional features are <em>significant</em>. I will attempt to assess this by comparing the functional features agains features from existing libraries. The code for this project can be found <a href="">here</a>.</p>
 <p>If the funcitonal features are found to be predictive, then a subsequent step would be to produce a package so others can test the features for themselves.</p>
-<section id="attempt-1" class="level2">
-<h2 class="anchored" data-anchor-id="attempt-1">Attempt 1</h2>
 <div class="{=html}">
 <iframe src="https://kaladin-stormblessed.quarto.pub/functional-features-part1/" width="100%" height="700px">
 </iframe>
 </div>
-</section>
-<section id="attempt-2" class="level2">
-<h2 class="anchored" data-anchor-id="attempt-2">Attempt 2</h2>
-<p>This work hasn’t been initiated yet. My idea is to replicate a Catch22 analysis. The devs/ researchers behind Catch22 tested their 22 features using a series of data sets. I will find one of these data sets, I believe they’re avaiable, and attempt to replciate their results. Then, I will calculate my functional features. Finally, I’ll evaluate results. My hope is that the functional features are at least as good as the Catch22 features. It’s also possible that the functional features are more pertinent to some domains than others.</p>
 
 
-</section>
 </section>
 
  ]]></description>
   <category>Research</category>
-  <guid>https://saintrod.github.io/fda-blog/posts/functional-features/post.html</guid>
+  <guid>https://saintrod.github.io/fda-blog/posts/functional-features-part1/post.html</guid>
   <pubDate>Fri, 03 Nov 2023 05:00:00 GMT</pubDate>
 </item>
 <item>
@@ -68,7 +61,7 @@
 
 
 
-<p>The work should be visible below. If it isn’t please clink this (<a href="https://kaladin-stormblessed.quarto.pub/the-power-of-functional-data-analysis/">link</a>).</p>
+<p>The work should be visible below. If it isn’t please clink this (<a href="https://kaladin-stormblessed.quarto.pub/the-power-of-functional-data-analysis/">link</a>). The code for this project can be found <a href="https://gitlab.com/energy_consumption/descriptive/fda_overview">here</a>.</p>
 <section id="introduction" class="level1">
 <h1>Introduction</h1>
 <blockquote class="blockquote">
