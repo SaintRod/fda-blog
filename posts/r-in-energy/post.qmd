@@ -21,7 +21,7 @@ The meetups are hosted by [Posit](https://posit.co/).
 # Links
 
 - [YouTube](https://www.youtube.com/watch?v=nA9fVOCD8yM)
-- [Presentation](https://docs.google.com/presentation/d/1ONqS4cMa_3MhxtTZ_lVUjgfUUUGNcDwq5aV92ThVItU/edit#slide=id.g11db7e0da8f_0_0)
+- [Presentation](https://docs.google.com/presentation/d/1ONqS4cMa_3MhxtTZ_lVUjgfUUUGNcDwq5aV92ThVItU/edit?usp=sharing)
 
 # Embedded
 
