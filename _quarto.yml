@@ -5,19 +5,25 @@ project:
 website:
   title: FDA Blog
   site-url: https://saintrod.github.io/fda-blog/
-  description: "A Collection of Works About Functional Data Analysis (FDA)"
   navbar:
-    right:
-      - text: Blog
+    search: true
+    left:
+      - text: Posts
         href: blog.qmd
+    right:
+      - icon: linkedin
+        href: https://www.linkedin.com/in/santiagorodriguez91/
       - icon: github
         href: https://github.com/SaintRod/
       - icon: gitlab
         href: https://gitlab.com/hail_hydra
+  page-footer: 
+    background: dark 
+    left: Copyright 2024, Santiago Rodriguez
+    right: Built with Quarto
+
 format:
   html:
     theme: cosmo
     css: styles.css
-
-
 
